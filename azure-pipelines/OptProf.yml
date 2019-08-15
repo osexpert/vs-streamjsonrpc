@@ -6,6 +6,7 @@ schedules:
   branches:
     include:
     - v2.1
+    - dev/andarno/v2.1_scheduletest
   always: true # we must keep data fresh since optimizationdata drops are purged after 30 days
 
 resources:
